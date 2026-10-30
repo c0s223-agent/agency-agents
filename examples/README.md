@@ -39,6 +39,18 @@ These examples answer the question: *"What does it actually look like when the f
 
 **Key takeaway:** All 8 agents ran in parallel and produced coherent, cross-referencing plans without coordination overhead. The output demonstrates the agency's ability to go from "find an opportunity" to "here's the full blueprint" in a single session.
 
+### [workflow-overnight-portfolio-review.md](./workflow-overnight-portfolio-review.md)
+
+**What:** One orchestrating session runs overnight across a solo builder's repositories. It ends with 5 automations, 5 next actions and a single morning page of decisions.
+
+**Agents used:**
+- discovery analysts;
+- a Reality Checker that challenges the shortlist;
+- builder and reviewer pairs, each in its own git worktree;
+- a Brand Guardian and Content Creator for the content work.
+
+**Key takeaway:** The adversarial review and the "prepare up to the human's button" rule are what make an unattended run safe and the morning review fast.
+
 ## Adding New Examples
 
 If you run an interesting multi-agent exercise, consider adding it here. Good examples show:
